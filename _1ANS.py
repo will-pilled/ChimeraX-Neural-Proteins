@@ -1,0 +1,13 @@
+from chimerax.core.commands import run
+run(session, 'open 1ANS')
+run(session, 'show c')
+run(session, 'show a')
+run(session, 'style stick')
+run(session, 'color sequential palette Purples-9')
+run(session, 'transparency 90 s')
+run(session, 'cartoon style modeHelix tube sides 20')
+run(session, 'sequence chain all')
+run(session, 'view orient')
+run(session, 'ui tool show "Side View"')
+run(session, 'graphics silhouettes true')
+run(session, 'set bgColor #ffffff00')
